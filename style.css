@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    color:rgb(238, 112, 141);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+img {
+    border: solid rgb(242, 174, 189) 1em;
+}   
+
+figure {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+header  {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
+.container {
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.navbar {
+    width: 100;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    margin: 30px 0;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color:palevioletred;
+}
+
+.introimage {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(images/homeimage.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    text-align: right;
+}
